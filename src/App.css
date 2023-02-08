@@ -1,24 +1,33 @@
 .jumbotron{
-background-color:#81ecec;
-color: white;
-padding: 100px 0;
-text-align: center;
-}
-.icon{
-    font-size: 80px;
-}
-.profile{
-    padding: 10px;
-    font-size: 60px;
-    color: black;
-}
-.saved{
-    padding: 10px;
-    font-size: 50px;
-    color: black;
+    background-color:#81ecec;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    }
+    .icon{
+        font-size: 80px;
+    }
+    .headerBottom{
+       padding-top: 10px;
+        margin-left: 70vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile{
+        margin: 10px;
+    }
+    .photo{
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;align-items: center;
+        justify-content: space-around;
+    }
+    .profileDetail{
+        font-size: 24px;
+        font-family: "Courier New", Courier, monospace;
+        color: red;
+    }
 
-}
-.headerBottom{
-   padding-top: 10px;
-    margin-left: 70vw;
-}
+    

@@ -5,7 +5,8 @@ export const RecipeBookSlice = createSlice({
     initialState :[],
     reducers:{
         saveRecipe : (state =[],action)=>{ 
-           state.push()
+            console.log(action,"action")
+           state.push(action.payload)
         },
         
     },
